@@ -7,6 +7,12 @@ body {
   height: 100%;
 }
 
+@import url('https://rsms.me/inter/inter.css');
+html, body, h1, h2, h3, h4, h5, h6 { font-family: 'Inter', sans-serif !important; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
 #holy {
   display: grid;
   /* auto: as wide as its content
