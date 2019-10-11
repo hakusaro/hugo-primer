@@ -3,7 +3,7 @@ html,
 body {
   height: 100%;
   font-size-adjust: .5;
-  color: rgb(17,17,17);
+/*  color: rgb(17,17,17);*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-wrap: break-word;
@@ -13,10 +13,13 @@ body {
 }
 
 @import url('https://rsms.me/inter/inter.css');
-html, body, h1, h2, h3, h4, h5, h6, p, li, a { font-family: 'Inter', 'Georgia', sans-serif !important; }
+html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
-  html, body, h1, h2, h3, h4, h5, h6, p, li, a { font-family: 'Inter var', 'Inter', sans-serif !important; }
+  html { font-family: 'Inter var', sans-serif; }
 }
+
+h1, h2, h3, h4, h5, p, li, a { font-family: 'Inter var', 'Inter', 'Georgia', sans-serif; }
+
 
 .footnotes { font-size: 13px; }
 
