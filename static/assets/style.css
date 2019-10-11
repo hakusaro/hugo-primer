@@ -1,9 +1,9 @@
-/* custom css here */
+@import url('https://rsms.me/inter/inter.css');
+
 html,
 body {
   height: 100%;
   font-size-adjust: .5;
-/*  color: rgb(17,17,17);*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-wrap: break-word;
@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 
-@import url('https://rsms.me/inter/inter.css');
+
 html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
