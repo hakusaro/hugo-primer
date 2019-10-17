@@ -116,9 +116,7 @@ aside {
 #toc * {
   list-style: none;
   display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  overflow-wrap: break-word;
 }
 #toc ul {
   padding-left: 0.8rem;
