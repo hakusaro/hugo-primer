@@ -1,5 +1,31 @@
 @import url('https://rsms.me/inter/inter.css');
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444 !important;
+    color: #e4e4e4;
+  }
+  a {
+    color: #e39777;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+  
+  .bg-gray {
+    background-color: #000 !important;
+  }
+  
+  .bg-white {
+    background-color: #000 !important;
+  }
+  
+  .Box {
+    background-color: #000 !important;
+  }
+}
+
+
 html,
 body {
   height: 100%;
