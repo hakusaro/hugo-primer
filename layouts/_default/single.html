@@ -17,9 +17,9 @@
     <div class="float-md-right">
       <span title="Changed: {{ .Lastmod.Format "Monday, January 2, 2006" }}. Published at: {{ .PublishDate.Format "Monday, January 2, 2006" }}.">
         {{ if ne .Lastmod .PublishDate }}
-          Published: {{ dateFormat "Monday, January 2, 2006" .PublishDate }}; ∆: {{ dateFormat ( default "Monday, January 2, 2006" .Site.Params.dateFormat ) .Lastmod }}.
+          ☆: {{ dateFormat "Monday, January 2, 2006" .PublishDate }}. ∆: {{ dateFormat ( default "Monday, January 2, 2006" .Site.Params.dateFormat ) .Lastmod }}.
         {{ else }} 
-          Published: {{ dateFormat "Monday, January 2, 2006" .PublishDate }}
+          ☆: {{ dateFormat "Monday, January 2, 2006" .PublishDate }}
         {{ end }}
         Belief: <span style="font-style: italic">{{ .Params.belief }}</span>.
       </span>
