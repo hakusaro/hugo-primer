@@ -22,6 +22,7 @@
   
   .Box {
     background-color: #000 !important;
+    border-color: #e39777;
   }
   
   .chroma {
@@ -31,6 +32,46 @@
   table, thead, tr {
     background-color: #000 !important;
   }
+  
+  .Subhead {
+    border-color: rgb(88, 96, 105);
+  }
+  
+  span.Label {
+    background-color: #000 !important;
+    color: #e39777;
+    border-color: #e39777;
+  }
+  
+  span.previous_page.disabled {
+    background-color: #000 !important;
+    color: rgb(88, 96, 105);
+    border-color: rgb(88, 96, 105);
+  }
+  
+  span.next_page.disabled {
+    background-color: #000 !important;
+    color: rgb(88, 96, 105);
+    border-color: rgb(88, 96, 105);
+  }
+  
+  .pagination a {
+    background-color: #000 !important;
+    color: #e39777;
+    border-color: #e39777;
+  }
+  
+  .pagination span {
+    background-color: #000 !important;
+    color: #e39777;
+  }
+  
+  em.current.selected {
+    background-color: #000 !important;
+    color: #e39777;
+    border-color: red;
+  }
+  
 }
 
 
